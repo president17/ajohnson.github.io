@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew Johnson's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="light-theme">
+    <nav class="nav" aria-label="Main navigation">
+        <div class="header-left">
+            
+        </div>
+        <nav class="header-center" aria-label="Main navigation" style="font-size: 2rem; font-weight: bold;">
+            Andrew Johnson
+        </nav>
+        <nav class="header-right" aria-label="Main navigation">    
+            <a class="active" href="index.html" aria-label="Home page">Home</a>
+            <a href="about.html" aria-label="About page">About Me</a>
+            <a href="contact.html" aria-label="Contact page">Contact</a>
+            <a href="https://www.linkedin.com/in/andrew-johnson-matsci" class="fa fa-linkedin" aria-label="LinkedIn profile" target="_blank"></a>
+        </nav>
+    </nav>
+    <main class="home-layout">
+        <section class="home-intro" aria-labelledby="home-title">
+            <h1 id="home-title">Welcome to my portfolio!</h1>
+            <div class="home-intro-content">
+                <div>
+                <img src="images/home_picture.JPG" alt="Andrew Johnson">
+                <figcaption>Yes, this is me!</figcaption>
+                </div>
+                <p>I'm a materials science masters alumnus from WashU in St. Louis. I have a passion for the semiconductor industry, robotics, and outdoor education.</p>
+            </div>
+        </section>
+        <section class="home-projects" aria-labelledby="projects-title">
+            <h2 id="projects-title">Experience</h2>
+            <ul>
+                <li><a href="washu_robotics.html">WashU Robotics &#8594</a><span class="project-year">2023-2026</span></li>
+                <li><a href="ayf.html">American Youth Foundation &#8594</a><span class="project-year">2022-2026</span></li>
+                <li><a href="nanofab.html">Nanofabrication &#8594</a><span class="project-year">2026</span></li>
+                <li><a href="controls_lab.html">Control Systems Lab &#8594</a><span class="project-year">2025</span></li>
+                <li><a href="senior_design.html">RECLÉM Clothing Washer &#8594</a><span class="project-year">2024</span></li>
+                <li><a href="ucd_lab.html">Low Cost Spectrometer &#8594</a><span class="project-year">2024</span></li>
+            </ul>
+        </section>
+    </main>
+    <button class="btn" type="button" aria-label="Toggle color theme">
+        <img src="images/moon.svg" alt="Switch to dark theme" id="theme-icon" style="width: 30px; height: 30px;">
+    </button>
+    <script src="app.js"></script>
+    <noscript>You need to enable Javascript to view the full site.</noscript>
+</body>
+</html>

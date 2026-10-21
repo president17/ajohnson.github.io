@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controls Lab | Andrew Johnson's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="light-theme">
+    <nav class="nav" aria-label="Main navigation">
+        <div class="header-left">
+            <a class="back-link" href="index.html" aria-label="Back to home" title="Back to home">&#8592;</a>
+        </div>
+        <nav class="header-center" aria-label="Main navigation" style="font-size: 2rem; font-weight: bold;">
+            Andrew Johnson
+        </nav>
+        <nav class="header-right" aria-label="Main navigation">    
+            <a href="index.html" aria-label="Home page">Home</a>
+            <a href="about.html" aria-label="About page">About Me</a>
+            <a href="contact.html" aria-label="Contact page">Contact</a>
+            <a href="https://www.linkedin.com/in/andrew-johnson-matsci" class="fa fa-linkedin" aria-label="LinkedIn profile" target="_blank"></a>
+        </nav>
+    </nav>
+    <main class="experience-page experience-page-wide">
+        <h1>Control Systems Design Lab</h1>
+        <div class="experience-layout">
+            <p> In my design course, ESE4480: Control Systems Design Laboratory, my partner and I were tasked with controlling and balancing a
+                two-link inverted pendulum system. To accomplish this, we would program the second link to swing up from rest and then “catch”
+                the swinging link at the peak of rotation. The vertical position can be stable, even as the base rotates beneath. To accomplish
+                this, we followed a structure: model, measure parameters, and design a controller. The motion was modeled with kinematic and
+                dynamic equations, and the parameters recorded by encoders on the joints of each link. The controller had three modes: swinging
+                the pendulum up, balancing it, and waiting for it to fall. This allowed it to recover and try to balance again without any help.
+                We were able to achieve stable balanced and rotational control of the base, an extra step to ensure our design was sound.
+                To simulate the pendulum and control it, we used MATLAB and its accompanying Simulink. The video shown explains the project
+                in more detail and the full working result.</p>
+            <div class="experience-gallery">
+                <figure>
+                    <iframe
+                        src="https://www.youtube-nocookie.com/embed/FaMMoQSFZ-4"
+                        title="Control Systems Design Lab project video"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen>
+                    </iframe>
+                </figure>
+            </div>
+        </div>
+    </main>
+</body>
+</html> 
