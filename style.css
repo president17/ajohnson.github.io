@@ -244,6 +244,10 @@ body {
     text-align: left;
 }
 
+.experience-layout-video {
+    grid-template-columns: minmax(0, 1fr);
+}
+
 .experience-layout > p {
     margin: 0;
     line-height: 1.7;
@@ -259,6 +263,10 @@ body {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 24px;
+}
+
+.experience-gallery-video {
+    grid-template-columns: minmax(0, 1fr);
 }
 
 .experience-gallery-three {
@@ -295,6 +303,10 @@ body {
     width: min(100%, 720px);
     aspect-ratio: 16 / 9;
     border: 0;
+}
+
+.experience-gallery-video iframe {
+    width: min(100%, 960px);
 }
 
 .experience-gallery figcaption {
